@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body>
+   
+    <header>
+        <img  class="venky"src="img 3.jpg" height="200px" width="200px">
+        <div class="container">
+          <h1>Hospital Management System</h1>
+            <nav>
+                <ul>
+                    <li><a href>Home</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="appointment.html">Appointments</a></li>
+                    <li><a href="patient .html">Patient Records</a></li>
+                  
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+      
+    </header>
+   
+
+    <section id="home" class="main-section">
+        <div class="container">
+            <h2>Welcome to the Hospital Management System</h2>
+            <p>It helps manage patient records, appointments, billing, inventory, medical history, staff, and more, ensuring smooth operations within the hospital. HMS improves efficiency, reduces errors, enhances patient care, and enables easy access to important information for healthcare providers and administrative staff.</p>   
+        </div>
+    </section>
+    <section>
+        <div class="container">
+         <h2>Doctors</h2>
+         <div class="img-continer">
+      <img src="download (1).jpg" height="300" width="300"> 
+      <h3>Dr.kiran (ENT)</h3>
+      </div>
+    <div class="img-continer">
+        <img src="download (2).jpg" hegint="300" width="300">
+        <h3>Dr.vardhan (Orthopedic)</h3>
+    </div>
+     
+    <div class="img-continer">
+     <img src="download (3).jpg" height="300" width="300">
+     <h3>Dr.Ramya (Opthalmologist)</h3>
+     </div>
+   
+       
+    </section>
+   
+        <div class="container">
+           <h2>services</h2>
+            <b>
+                <img src="download (4).jpg" height="300" width="300">
+            </b>
+                <b>
+                <img src="download (5).jpg" height="300" width="300">
+                </b>
+        </div>
+    
+
+
+    <section id="contact" class="main-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+           
+    <div class="contact-form-container">
+        <form id="contact-form" onsubmit="return validateForm()">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Hospital Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
